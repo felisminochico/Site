@@ -1,5 +1,13 @@
 @charset "UTF-8";
 
+:root{
+    --varcor0: #0B04D9;
+    --varcor1: #0C06BF;
+    --varcor2: #030A8C;
+    --varcor3: #010440;
+    --varcor4: #B4BABF;
+}
+
 html, body{
     font-family: Arial, Helvetica, sans-serif;
     margin: 0px;
