@@ -1,11 +1,11 @@
 @charset "UTF-8";
 
 :root{
-    --varcor0: #0B04D9;
-    --varcor1: #0C06BF;
-    --varcor2: #030A8C;
-    --varcor3: #010440;
-    --varcor4: #B4BABF;
+    --varcor0: #D91438;
+    --varcor1: #014040;
+    --varcor2: #027368;
+    --varcor3: #038C73;
+    --varcor4: #D9AD2B;
 }
 
 html, body{
