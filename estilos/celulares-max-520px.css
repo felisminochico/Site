@@ -14,11 +14,7 @@ header > div#menu-telefone-520px > div#botao-menu{
     background-color: var(--varcor1);
     color: white;
     cursor: pointer;
-<<<<<<< HEAD
     font-size: 1.2em;
-=======
-    font-size: 1em;
->>>>>>> 2b0788ccc8fc893c00807a91622ef896d5c8bb19
     padding: 15px 0px;
     text-align: center;
 }
@@ -34,11 +30,7 @@ header > div#menu-telefone-520px > nav{
     top: 0px;
     transition-duration: 0.7s;
     width: 240px;
-<<<<<<< HEAD
     z-index: 10;
-=======
-    z-index: 2;
->>>>>>> 2b0788ccc8fc893c00807a91622ef896d5c8bb19
 }
 
 header > div#menu-telefone-520px > nav > div#links{
