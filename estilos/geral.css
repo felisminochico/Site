@@ -1,5 +1,14 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Mona+Sans:ital,wght@0,200..900;1,200..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+@font-face{
+    font-family: 'paragrafos';
+    src: url('fonts/paragrafos/static/MonaSans_Condensed-Black.ttf') format('truetype');
+}
+
 :root{
     --varcor0: #010e29;
     --varcor1: #03588C;
@@ -12,6 +21,33 @@ html, body{
     font-family: Arial, Helvetica, sans-serif;
     margin: 0px;
     padding: 0px;
+}
+
+header > div#cabecalho{
+    align-items: center;
+    background-color: #010e29;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    height: 26vh;
+    justify-content: center;
+    row-gap: 30px;
+}
+
+header > div#cabecalho > span#titulo-cabecalho{
+    font-family: 'Dancing Script', 'Mona Sans';
+    font-size: 3.6em;
+}
+
+header > div#cabecalho > span#conteudo-cabecalho{
+    padding: 0px 10px;
+    text-align: center;
+}
+
+main p{
+    font-family: 'Roboto Condensed';
+    font-size: 1em;
+    font-weight: normal;
 }
 
 main > section > table{
