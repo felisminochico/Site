@@ -35,7 +35,7 @@ header > div#cabecalho{
 }
 
 header > div#cabecalho > span#titulo-cabecalho{
-    font-family: 'Dancing Script', 'Mona Sans';
+    font-family: 'Dancing Script', 'Mona Sans', Arial, Helvetica, sans-serif;
     font-size: 3.6em;
 }
 
@@ -45,7 +45,7 @@ header > div#cabecalho > span#conteudo-cabecalho{
 }
 
 main p{
-    font-family: 'Roboto Condensed';
+    font-family: 'Roboto Condensed', Arial, Helvetica, sans-serif;
     font-size: 1em;
     font-weight: normal;
 }

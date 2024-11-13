@@ -10,6 +10,10 @@
     --varcor4: #8C6330;
 }
 
+header div#botao-menu, div#rodape-cabecalho{
+    display: block;
+}
+
 header > div#menu-telefone-520px > div#botao-menu{
     background-color: var(--varcor1);
     color: white;
@@ -78,8 +82,9 @@ main > section > p{
 }
 
 main table{
-    margin: auto;
     border-collapse: collapse;
+    margin: auto;
+    width: 350px;
 }
 
 main table caption{
