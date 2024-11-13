@@ -29,9 +29,9 @@ header > div#cabecalho{
     color: white;
     display: flex;
     flex-direction: column;
-    height: 26vh;
+    height: 200px;
     justify-content: center;
-    row-gap: 30px;
+    row-gap: 10px;
 }
 
 header > div#cabecalho > span#titulo-cabecalho{
