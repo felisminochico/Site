@@ -9,6 +9,7 @@
 }
 
 main > section > h2{
+    background-color: none;
     border-radius: 0px 10px;
     box-shadow: inset 3px 3px 4px 2px #03588C;
     font-size: 1.4em;
