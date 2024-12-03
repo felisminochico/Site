@@ -91,3 +91,13 @@ footer{
     padding: 20px;
     text-align: center;
 }
+
+footer > div#contacto-rodape > div > span{
+    align-items: center;
+    display: flex;
+}
+
+footer > div#contacto-rodape > div > span > a{
+    color: white;
+    text-decoration: none;
+}

@@ -155,3 +155,19 @@ main table th, td{
     padding: 5px;
     text-align: center;
 }
+
+footer{
+    display: grid;
+    row-gap: 20px;
+}
+
+footer > div#contacto-rodape{
+    display: flex;
+    justify-content: space-between;
+}
+
+footer > div#contacto-rodape > div#redes-sociais, div#contacto-rodape > #sites{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
