@@ -62,6 +62,46 @@ main > section > h2{
     font-size: 1.44em;
 }
 
+figure#figura-foto-desenvolvedor-367px{
+    display: none;
+}
+
+figure#figura-foto-desenvolvedor-260px{
+    background-color: #010e29;
+    border-radius: 10px;
+    display: block;
+    margin: auto;
+    position: relative;
+    width: 260px;
+}
+
+figure#figura-foto-desenvolvedor-260px > figcaption{
+    background-color: rgba(0, 0, 0, 0.482);
+    border-radius: 10px;
+    box-sizing: border-box;
+    height: 100%;
+    opacity: 0;
+    padding: 20px 2px 0px 8px;
+    position: absolute;
+    transition: .8s;
+    width: 100%;
+}
+
+figure#figura-foto-desenvolvedor-260px > figcaption > h1, figcaption > p{
+    color: white;
+    font-style: italic;
+    font-weight: normal;
+    margin: 0px;
+    padding: 0px;
+}
+
+figure#figura-foto-desenvolvedor-260px > img{
+    border-radius: 10px;
+    display: block;
+    margin: auto;
+    height: 100%;
+}
+
 main p{
     line-height: 1.5em;
     margin-bottom: 30px;

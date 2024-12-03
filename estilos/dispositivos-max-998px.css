@@ -1,5 +1,9 @@
 @charset "UTF-8";
 
+body{
+    background-color: blueviolet;
+}
+
 figure#figura-foto-desenvolvedor-260px{
     display: none;
 }
