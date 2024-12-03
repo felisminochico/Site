@@ -101,3 +101,7 @@ footer > div#contacto-rodape > div > span > a{
     color: white;
     text-decoration: none;
 }
+
+footer > div#contacto-rodape > div > span > a:hover{
+    text-decoration: underline;
+}

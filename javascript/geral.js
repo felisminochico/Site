@@ -2,11 +2,16 @@
 let figureFotoDesenvolvedor260px = window.document.getElementById('figura-foto-desenvolvedor-260px');
 let figcaptionLegendaDesenvolvedor260px = window.document.getElementById('legenda-desenvolvedor-260px');
 let conteudoHora = window.document.getElementById('conteudo-hora');
+let figureFotoDesenvolvedor260px2 = window.document.getElementById('figura-foto-desenvolvedor-260px-2');
+let figcaptionLegendaDesenvolvedor260px2 = window.document.getElementById('legenda-desenvolvedor-260px-2');
 let hora = new Date().getHours();
 let Menu = false;
 
 figureFotoDesenvolvedor260px.addEventListener('mouseover', moverFotoDesenvolvedor260px)
 figureFotoDesenvolvedor260px.addEventListener('mouseout', tirarmouseFotoDesenvolvedor260px)
+
+figureFotoDesenvolvedor260px2.addEventListener('mouseover', moverFotoDesenvolvedor260px)
+figureFotoDesenvolvedor260px2.addEventListener('mouseout', tirarmouseFotoDesenvolvedor260px)
 
 if(hora < 12){
     conteudoHora.innerHTML = 'Muito Bom Dia, Caríssimo Visitante!';
@@ -21,10 +26,12 @@ if(hora < 12){
 
 function moverFotoDesenvolvedor260px(){
     figcaptionLegendaDesenvolvedor260px.style.opacity = 1;
+    figcaptionLegendaDesenvolvedor260px2.style.opacity = 1;
 }
 
 function tirarmouseFotoDesenvolvedor260px(){
     figcaptionLegendaDesenvolvedor260px.style.opacity = '0'
+    figcaptionLegendaDesenvolvedor260px2.style.opacity = '0';
 }
 
 function menu(){

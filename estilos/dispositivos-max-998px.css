@@ -1,9 +1,179 @@
 @charset "UTF-8";
 
-body{
-    background-color: blueviolet;
+:root{
+    --varcor0: #010e29;
+    --varcor1: #03588C;
+    --varcor2: #023859;
+    --varcor3: #038C73;
+    --varcor4: #8C6330;
+}
+
+html, body{
+    background-color: #038C73;
+}
+
+header > div#cabecalho{
+    height: 180px;
+}
+
+header div#botao-menu, div#rodape-cabecalho{
+    display: none;
+}
+
+header nav{
+    background-color: #03588C;
+}
+
+header nav > div{
+    display: flex;
+    column-gap: 8px;
+    padding: 8px 4px;
+}
+
+header nav > div > a{
+    border-radius: 8px;
+    color: white;
+    font-size: 1.04em;
+    padding: 12px;
+    text-decoration: none;
+}
+
+header nav > div > a:hover{
+    background-color: #010e29;
+}
+
+main{
+    background-color: white;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.404);
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+    max-width: 715px;
+    padding: 12px;
+    transition: max-width 1s;
+}
+
+main > section#filho-1, main > section#filho-2{
+    background-color: white;
+}
+
+main > section > h1{
+    color: #03588C;
+    font-size: 1.8em;
+    font-weight: normal;
+}
+
+main > section > h2{
+    font-size: 1.44em;
+}
+
+figure#figura-foto-desenvolvedor-367px{
+    display: none;
 }
 
 figure#figura-foto-desenvolvedor-260px{
+    background-color: #010e29;
+    border-radius: 10px;
+    display: block;
+    margin: auto;
+    position: relative;
+    width: 260px;
+}
+
+figure#figura-foto-desenvolvedor-260px > figcaption{
+    background-color: rgba(0, 0, 0, 0.482);
+    border-radius: 10px;
+    box-sizing: border-box;
+    height: 100%;
+    opacity: 0;
+    padding: 20px 2px 0px 8px;
+    position: absolute;
+    transition: .8s;
+    width: 100%;
+}
+
+figure#figura-foto-desenvolvedor-260px > figcaption > h1, figcaption > p{
+    color: white;
+    font-style: italic;
+    font-weight: normal;
+    margin: 0px;
+    padding: 0px;
+}
+
+figure#figura-foto-desenvolvedor-260px > img{
+    border-radius: 10px;
+    display: block;
+    margin: auto;
+    height: 100%;
+}
+
+main p{
+    line-height: 1.7em;
+    margin-bottom: 30px;
+    text-indent: 36px;
+    text-align: justify;
+}
+
+main table{
+    margin: auto;
+    border-collapse: collapse;
+    width: 500px;
+}
+
+main table caption{
+    color: #8C6330;
+    font-style: italic;
+    font-size: 1.4em;
+    font-weight: bold;
+    padding: 10px 0px;
+}
+
+main table thead{
+    background-color: #038C73;
+}
+
+main table thead tr th{
+    border: 1px solid black;
+}
+
+main table tfoot th{
+    background-color: #038C73;
+}
+
+main table th, td{
+    padding: 5px;
+    text-align: center;
+}
+
+#citacao-bloco, #titulo-foto{
+    display: block;
+}
+
+main > section{
+    border: none;
+}
+
+main > section > p{
+    font-size: 1.2em;
+}
+
+aside{
     display: none;
+}
+
+footer{
+    display: grid;
+    row-gap: 20px;
+}
+
+footer > div#contacto-rodape{
+    display: flex;
+    justify-content: space-around;
+}
+
+footer > div#contacto-rodape > div#redes-sociais, div#contacto-rodape > #sites{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
 }

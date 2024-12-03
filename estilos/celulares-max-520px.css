@@ -69,6 +69,11 @@ main{
     padding: 10px 12px 10px 12px;
 }
 
+main > section{
+    float: none;
+    width: 100%;
+}
+
 main > section > h1{
     color: var(--varcor1);
     font-size: 1.6em;
@@ -77,6 +82,10 @@ main > section > h1{
 
 main > section > h2{
     font-size: 1.3em;
+}
+
+main > section > p{
+    font-size: 1.1em;
 }
 
 figure#figura-foto-desenvolvedor-367px{
@@ -170,4 +179,8 @@ footer > div#contacto-rodape > div#redes-sociais, div#contacto-rodape > #sites{
     display: flex;
     flex-direction: column;
     row-gap: 10px;
+}
+
+aside{
+    display: none;
 }

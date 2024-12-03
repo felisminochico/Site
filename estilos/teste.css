@@ -8,6 +8,10 @@
     --varcor4: #8C6330;
 }
 
+main > section{
+    border: none;
+}
+
 main > section > h2{
     background-color: none;
     border-radius: 0px 10px;
