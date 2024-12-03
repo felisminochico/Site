@@ -75,6 +75,10 @@ main > section > h1{
     font-weight: normal;
 }
 
+main > section > h2{
+    font-size: 1.3em;
+}
+
 main > section > p{
     line-height: 1.5em;
     text-align: justify;
@@ -111,4 +115,3 @@ main table th, td{
     padding: 5px;
     text-align: center;
 }
-

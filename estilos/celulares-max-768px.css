@@ -52,10 +52,14 @@ main{
     padding: 12px;
 }
 
-main section h1{
+main > section > h1{
     color: #03588C;
     font-size: 1.8em;
     font-weight: normal;
+}
+
+main > section > h2{
+    font-size: 1.44em;
 }
 
 main p{

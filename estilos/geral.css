@@ -44,10 +44,18 @@ header > div#cabecalho > span#conteudo-cabecalho{
     text-align: center;
 }
 
-main p{
+main > section > p{
     font-family: 'Roboto Condensed', Arial, Helvetica, sans-serif;
     font-size: 1em;
     font-weight: normal;
+}
+
+main > section > h2{
+    background-image: linear-gradient(to right, var(--varcor1), transparent);
+    border-radius: 8px;
+    color: #010e29;
+    font-weight: normal;
+    padding: 10px;
 }
 
 main > section > table{
@@ -64,21 +72,6 @@ main > section > table > thead > tr > th{
 
 #tabela{
     overflow-x: scroll;
-}
-
-main > section > h2{
-    border-radius: 0px 10px;
-    box-shadow: inset 3px 3px 4px 2px #03588C;
-    font-size: 1.4em;
-    font-weight: normal;
-    margin: auto;
-    max-width: 300px;
-    padding: 6px 4px;
-    text-align: center;
-}
-
-main > section > h2::after{
-    content: '😅💻';
 }
 
 footer{
